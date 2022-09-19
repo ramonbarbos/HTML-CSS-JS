@@ -1,0 +1,19 @@
+
+
+.slide-content{
+    width: 935px;
+    height: 530px;
+    overflow: hidden;
+    position: absolute;
+    top:  60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    
+}
+
+.navigation{
+    position: absolute;
+    
+}
