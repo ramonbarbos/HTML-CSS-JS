@@ -44,26 +44,28 @@ input[type=text]:hover{
 
 }
 
-ul{
+.nav-menu{
     display: flex;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
     
 }
-ul li{
+.nav-menu .nav-item{
    margin-left: 15px;
    margin-right: 15px;
 
  
 }
-ul a{
-    font-size: 1.7vmin;
+.nav-item a{
+    font-size: 2vmin;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     
 
 }
-ul a:hover{
+.nav-item a:hover{
     display: block;
     justify-content: center;
     align-items: center;
@@ -73,7 +75,7 @@ ul a:hover{
     transition: .3s;
     border-radius: 5px;
 }
-ul a:active{
+.nav-item a:active{
     content: '';
     display: block;
     background-color: #E87F38;
@@ -95,79 +97,74 @@ ul a:active{
     display: none;
     cursor: pointer;
 }
-.menu div{
-    width: 35px;
+.menu span{
+    display: block;
+    width: 32px;
     height: 2px;
+    border-radius: 5px;
     background-color: white;
     margin: 8px;
+    transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 499px){
-    .menu {
-        position: absolute;
+@media (max-width: 999px){
+ 
+    .menu{
         display: block;
-        cursor: pointer;
-        top: 10px;
-        left: 0;
     }
-    nav{
-        width: 100vw;
-        height: 100vh;
-        background-color: #E87F38;  
-        display: flex; 
-        flex-direction: column;    
-       
+    .menu.active .line:nth-child(2){
+        opacity: 0;
     }
-    .navbar{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height:  50%;
-    }
-    ul{
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        text-align: center;
-    }
-    ul a{
-        font-size: 4vmin;
-        text-decoration: none;
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;   
-    }
-    ul li{
-        margin-top: 15px;
-        margin-bottom: 15px;
-        
-      
-     }
-    .car img{
-        width: 50px;
-        height: 50px;
-        margin-left: 0;
-    }
-    .car img:hover{
-        width: 55px;
-        height: 55px;
-    }
-    input[type=text]{
-        width: 200px;
-        height: 40px;
-        border: 0 solid #fff;
-        outline: none;
-        border-radius: 5px;
-        padding: 0 5px 0 20px;
+    .menu.active .line:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
 
     }
-    input[type=text]:hover{
-        width: 250px;
-        height: 45px;
-        transition: .3s;
-        border-radius: 5px;
-    
+    .menu.active .line:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+        
     }
-    
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        background-color: #E87F38;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        transition: 0.3s;
+    }
+    .img-logo h1{
+       display: none;
+    }
+    .nav-item{
+       margin: 16px 0;
+
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .nav-item a{
+        font-size: 2.5vmin;
+    }
+    .nav-item a:hover{
+        display: block;
+        font-size: 2.7vmin;
+        padding: 0;
+        background-color: transparent;
+        color: #ffffff;
+        transition: .2s;
+        border-radius: 0px;
+    }
+    .nav-menu .nav-item{
+        margin-top: 60px;
+        margin-bottom:60px;
+    }
+    .car img{
+        width: 30px;
+        height: 30px;
+        margin-top: 60px;
+        
+    }
 }
