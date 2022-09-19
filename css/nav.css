@@ -28,6 +28,7 @@ nav{
     justify-content: center;
 }
 input[type=text]{
+    display: block;
     width: 400px;
     height: 40px;
     border: 0 solid #fff;
@@ -168,26 +169,17 @@ input[type=text]:hover{
         
     }
 }
-@media (max-width: 400px){
+@media (max-width: 480px){
     .busca{
         width: 100%;
-        display: flex;
+        display: none;
         justify-content: center;
     }
     input[type=text]{
-        width: 250px;
-        height: 40px;
-        border: 0 solid #fff;
-        outline: none;
-        border-radius: 5px;
-        
-        padding: 0 5px 0 20px;
+         display: none;
     }
     input[type=text]:hover{
-        width: 260px;
-        height: 45px;
-        transition: .3s;
-        border-radius: 5px;
+        display: none;
     
     }
     .nav-item a{
