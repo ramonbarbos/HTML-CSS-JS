@@ -68,8 +68,14 @@ ul a:hover{
     padding: 5px;
     background-color: #FFEDBA;
     color: #E87F38;
-    transition: .2s;
+    transition: .3s;
     border-radius: 5px;
+}
+ul a:active{
+    content: '';
+    display: block;
+    background-color: #E87F38;
+    color: #FFEDBA;
 }
 .car img{
     width: 30px;
@@ -77,7 +83,7 @@ ul a:hover{
     margin-left: 15px;
 }
 .car img:hover{
-    transition: .2s;
+    transition: .3s;
     width: 35px;
     height: 35px;
 }
