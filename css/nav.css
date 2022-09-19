@@ -59,28 +59,24 @@ input[type=text]:hover{
  
 }
 .nav-item a{
-    font-size: 2vmin;
+    font-size: 2.3vmin;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: white;
     
 
 }
 .nav-item a:hover{
-    display: block;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    background-color: #FFEDBA;
-    color: #E87F38;
+    
+    color: #fdd3b7;
     transition: .3s;
     border-radius: 5px;
 }
 .nav-item a:active{
     content: '';
-    display: block;
-    background-color: #E87F38;
-    color: #FFEDBA;
+    color: #10ff10;
 }
 .car img{
     width: 30px;
@@ -92,6 +88,7 @@ input[type=text]:hover{
     transition: .3s;
     width: 35px;
     height: 35px;
+    
 }
 
 .menu {
@@ -112,6 +109,30 @@ input[type=text]:hover{
  
     .menu{
         display: block;
+    }
+    .navbar{
+        margin: auto 0;
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-logo h1{
+        display: block;
+        font-size: 7vmin;
+
+     }
+     .busca{
+        
+        display: none;
+    }
+    input[type=text]{
+         display: block;
+    }
+    input[type=text]:hover{
+        display: none;
+    
     }
     .menu.active .line:nth-child(2){
         opacity: 0;
@@ -136,9 +157,7 @@ input[type=text]:hover{
         height: 100%;
         transition: 0.3s;
     }
-    .img-logo h1{
-       display: none;
-    }
+   
     .nav-item{
        margin: 16px 0;
 
@@ -159,24 +178,35 @@ input[type=text]:hover{
         border-radius: 0px;
     }
     .nav-menu .nav-item{
-        margin-top: 60px;
-        margin-bottom:60px;
+        margin-top: 40px;
+        margin-bottom:40px;
     }
     .car img{
-        width: 30px;
-        height: 30px;
-        margin-top: 60px;
+    margin-left: 0px;
+        
+        margin-top: 40px;
         
     }
 }
 @media (max-width: 480px){
+    .navbar{
+    margin: auto;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
     .busca{
         width: 100%;
         display: none;
         justify-content: center;
     }
+    .img-logo h1{
+        display: block;
+        font-size: 7vmin;
+
+     }
     input[type=text]{
-         display: none;
+         display: block;
     }
     input[type=text]:hover{
         display: none;
