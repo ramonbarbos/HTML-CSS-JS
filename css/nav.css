@@ -168,3 +168,48 @@ input[type=text]:hover{
         
     }
 }
+@media (max-width: 400px){
+    .busca{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    input[type=text]{
+        width: 250px;
+        height: 40px;
+        border: 0 solid #fff;
+        outline: none;
+        border-radius: 5px;
+        
+        padding: 0 5px 0 20px;
+    }
+    input[type=text]:hover{
+        width: 260px;
+        height: 45px;
+        transition: .3s;
+        border-radius: 5px;
+    
+    }
+    .nav-item a{
+        font-size: 4.2vmin;
+    }
+    .nav-item a:hover{
+        display: block;
+        font-size: 4.5vmin;
+       
+        background-color: transparent;
+        color: #ffffff;
+        transition: .2s;
+        border-radius: 0px;
+    }
+    .nav-menu .nav-item{
+        margin-top: 40px;
+        margin-bottom:40px;
+    }
+    .car img{
+        
+        margin-top: 40px;
+        
+    }
+
+}
