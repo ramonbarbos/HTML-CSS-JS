@@ -13,75 +13,89 @@
 </head>
 <body>
     
-    
-
-    <header>
-        <nav>
+    <nav>
         
     
-            <div class="menu">
-               <span class="line"></span>
-               <span class="line"></span>
-               <span class="line"></span>
-            </div>
-    
-            
-            <div class="navbar">
-            
-                <div class="img-logo">
-                    <h1>LOGO</h1>
-                </div>
-                
-    
-                <div class="busca">
-                    <input  class="bus" type="text" placeholder="Buscar aqui...">
-    
-                </div>
-    
-                <ul class="nav-menu">
-                    <li class="nav-item"> <a href="#" class="nav-link">Crie sua conta</a></li>
-                    <li class="nav-item" > <a href="#" class="nav-link">Entre</a></li>
-                    <li class="nav-item"> <a href="#"  class="nav-link">Compras</a></li>
-                    <div class="car">
-                        <a href="#"><img src="img/icones/carrinho-carrinho.png" alt=""></a>
-                    </div>
-                </ul>
-    
-                
-    
-            </div>
-        </nav>
+        <div class="menu">
+           <span class="line"></span>
+           <span class="line"></span>
+           <span class="line"></span>
+        </div>
 
-        <div class="slide-content">
+        
+        <div class="navbar">
+        
+            <div class="img-logo">
+                <h1>LOGO</h1>
+            </div>
+            
+
+            <div class="busca">
+                <input  class="bus" type="text" placeholder="Buscar aqui...">
+
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item"> <a href="#" class="nav-link">Crie sua conta</a></li>
+                <li class="nav-item" > <a href="#" class="nav-link">Entre</a></li>
+                <li class="nav-item"> <a href="#"  class="nav-link">Compras</a></li>
+                <div class="car">
+                    <a href="#"><img src="img/icones/carrinho-carrinho.png" alt=""></a>
+                </div>
+            </ul>
+
+            
+
+        </div>
+    </nav>
+
+    <header>
+       
+          <div class="slider">
             <div class="slides">
-                <input type="radio" name="slide" id="slide1" checked>
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
+                <!--Radio Button-->
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <!--Fim Radio Button-->
                 
-                <div class="slide">
+                <!--Slide imagens-->
+
+                <div class="slide first">
                     <img src="img/slide/1.jpg" alt="Bem-vindo ao site café">
                 </div>
                 <div class="slide">
                     <img src="img/slide/2.jpg" alt="Bem-vindo ao site café">
                 </div>
                 <div class="slide">
-                    <img src="img/slide/1.jpg" alt="Bem-vindo ao site café">
+                    <img src="img/slide/3.jpg" alt="Bem-vindo ao site café">
                 </div>
-              
-                <div class="navigation">
-                    <label for="slide1"></label>
-                    <label for="slide2"></label>
-                    <label for="slide3"></label>
+              <!-- Fim Slide imagens-->
+
+              <!-- Navigation auto-->
+                <div class="navigation-auto">
+                   <div class="auto-btn1"></div>
+                   <div class="auto-btn2"></div>
+                   <div class="auto-btn3"></div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label class="manual-btn" for="radio1"></label>
+                    <label class="manual-btn" for="radio2"></label>
+                    <label class="manual-btn" for="radio3"></label>
                 </div>
 
             </div>
         </div>
+       
+
 
     </header>
 
     <section>
 
     </section>
+    <script src="js/slide.js"></script>
     <script src="js/navbar-mobile.js"></script>
 
 </body>

@@ -8,4 +8,13 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-color: #F8F8F8;
+}
+
+header{
+    margin: 0 auto;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    background-color: #FCFCFC;
 }

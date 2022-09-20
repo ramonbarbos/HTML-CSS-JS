@@ -105,7 +105,7 @@ input[type=text]:hover{
     transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 999px){
+@media (max-width: 1023px){
  
     .menu{
         display: block;
