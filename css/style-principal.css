@@ -18,3 +18,11 @@ header{
     display: flex;
     background-color: #FCFCFC;
 }
+
+@media (max-width: 480px){
+    header{
+        margin: 0 auto;
+        width: 95%;
+        
+    }
+}
