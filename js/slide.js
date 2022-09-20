@@ -1,16 +1,17 @@
-let count = 1;
-document.getElementById("radio1").checked = true;
+let slides = document.querySelectorAll(".slide-container");
+let index = 0;
 
-setInterval( function(){
-    nextImage();
-},4000)
-
-function nextImage(){
-    count++;
-    if(count>3){
-        count=1;
-    }
-    document.getElementById("radio"+count).checked = true;
-
+function next(){
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
 
 }
+
+function prev(){
+    slides[index].classList.remove('active');
+    index = (index - 1 + slides.length) % slides.length;
+    slides[index].classList.add('active');
+
+}
+setInterval(next, 5000);

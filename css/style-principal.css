@@ -9,6 +9,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #F8F8F8;
+    
 }
 
 header{
@@ -22,7 +23,7 @@ header{
 @media (max-width: 480px){
     header{
         margin: 0 auto;
-        width: 95%;
+        width: 100%;
         
     }
 }
