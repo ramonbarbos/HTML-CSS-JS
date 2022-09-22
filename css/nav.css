@@ -1,7 +1,4 @@
 
-
-
-
 nav{
     width: 100vw;
     height: 80px;
@@ -13,12 +10,12 @@ nav{
 }
 .navbar{
     margin: auto;
-    height: 80%;
+    width:  80%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .img-logo h1{
-    font-family: 'Changa One', cursive;
     color: white;
     font-size: 4vmin;
 }
@@ -27,70 +24,39 @@ nav{
     display: flex;
     justify-content: center;
 }
+
 input[type=text]{
     display: block;
     width: 400px;
-    height: 40px;
+    height: 35px;
     border: 0 solid #fff;
     outline: none;
     border-radius: 5px;
-    
+    align-items: center;
     padding: 0 5px 0 20px;
+    font-size: 12px;
 }
-input[type=text]:hover{
-    width: 410px;
-    height: 45px;
-    transition: .3s;
-    border-radius: 5px;
-
-}
-
 .nav-menu{
     display: flex;
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 .nav-menu .nav-item{
-   margin-left: 15px;
-   margin-right: 15px;
-
- 
+    margin-left: 15px;
+    margin-right: 15px;  
 }
 .nav-item a{
     font-size: 2.3vmin;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     color: white;
-    
-
 }
 .nav-item a:hover{
-    justify-content: center;
-    align-items: center;
-    
-    color: #fdd3b7;
-    transition: .3s;
-    border-radius: 5px;
+    font-size: 2.3vmin;
+    text-decoration: none;
+    color: rgb(221, 255, 96);
 }
-.nav-item a:active{
-    content: '';
-    color: #10ff10;
-}
-.car img{
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
-    
-}
-.car img:hover{
-    transition: .3s;
-    width: 35px;
-    height: 35px;
-    
-}
-
 .menu {
     display: none;
     cursor: pointer;
@@ -104,35 +70,47 @@ input[type=text]:hover{
     margin: 8px;
     transition: all 0.3s ease-in-out;
 }
-
+.car img{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    
+}
 @media (max-width: 1023px){
- 
-    .menu{
-        display: block;
-    }
     .navbar{
-        margin: auto 0;
-        height: 100%;
-        width: 80%;
+        margin: auto;
+        width:  85%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
-    .img-logo h1{
+    .menu {
         display: block;
-        font-size: 7vmin;
-
-     }
-     .busca{
-        
+    }
+    .busca{
         display: none;
     }
     input[type=text]{
-         display: block;
-    }
-    input[type=text]:hover{
         display: none;
-    
+    }
+    .nav-menu{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #E87F38;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3;
+        
+    }
+    .nav-menu.active{
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
     }
     .menu.active .line:nth-child(2){
         opacity: 0;
@@ -145,97 +123,19 @@ input[type=text]:hover{
         transform: translateY(-10px) rotate(-45deg);
         
     }
-    .nav-menu{
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        background-color: #E87F38;
-        text-align: center;
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-        transition: 0.3s;
-    }
-   
-    .nav-item{
-       margin: 16px 0;
-
-    }
-    .nav-menu.active{
-        left: 0;
+    .car img{
+    display: none;  
     }
     .nav-item a{
-        font-size: 2.5vmin;
-    }
-    .nav-item a:hover{
-        display: block;
-        font-size: 2.7vmin;
-        padding: 0;
-        background-color: transparent;
-        color: #ffffff;
-        transition: .2s;
-        border-radius: 0px;
-    }
-    .nav-menu .nav-item{
-        margin-top: 40px;
-        margin-bottom:40px;
-    }
-    .car img{
-    margin-left: 0px;
-        
-        margin-top: 40px;
-        
+        font-size: 2.3vmin;
+        text-decoration: none;
+        color: white;
     }
 }
 @media (max-width: 480px){
-    .navbar{
-    margin: auto;
-    height: 80%;
-    display: flex;
-    align-items: center;
-}
-    .busca{
-        width: 100%;
-        display: none;
-        justify-content: center;
-    }
-    .img-logo h1{
-        display: block;
-        font-size: 7vmin;
-
-     }
-    input[type=text]{
-         display: block;
-    }
-    input[type=text]:hover{
-        display: none;
-    
-    }
     .nav-item a{
-        font-size: 4.2vmin;
-    }
-    .nav-item a:hover{
-        display: block;
-        font-size: 4.5vmin;
-       
-        background-color: transparent;
-        color: #ffffff;
-        transition: .2s;
-        border-radius: 0px;
-    }
-    .nav-menu{
-        position: absolute;
-       
-    }
-    .nav-menu .nav-item{
-        margin-top: 40px;
-        margin-bottom:40px;
-    }
-    .car img{
-        
-        margin-top: 40px;
-        
-    }
-
+        font-size: 4vmin;
+        text-decoration: none;
+        color: white;
+    } 
 }
