@@ -19,6 +19,11 @@ nav{
     color: white;
     font-size: 4vmin;
 }
+.link{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
 .busca{
     width: 600px;
     display: flex;
@@ -41,7 +46,6 @@ input[type=text]{
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 .nav-menu .nav-item{
     margin-left: 15px;

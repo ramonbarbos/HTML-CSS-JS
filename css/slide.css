@@ -17,30 +17,15 @@
 
 .containerproje .slide-container .slide .contentproje{
     flex-direction: 1 1  350px;
-    animation: slideContent .4s linear .4s backwards;
+   
 }
 
-@keyframes slideContent{0%
-{
-    opacity: 0;
-    transform: translateX(-50%);
-}
-}
 
-.containerproje .slide-container .slide .contentproje h1{
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-.containerproje .slide-container .slide .contentproje p{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+
 .containerproje .slide-container{
     display: none;
 }
-.containerproje .slide-container.active{
+.containerproje .slide-container.ativo{
     display: block;
 }
 /*Primeiro Slide*/
@@ -101,12 +86,15 @@
 
 @media(max-width: 500px){
     .containerproje{
+        position: static;
     }
     .containerproje #prev{
+        display: none;
         top: 60%;
         left: 0;
     }
     .containerproje #next{
+        display: none;
         top: 60%;
         right: 0;
     }
