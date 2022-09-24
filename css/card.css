@@ -16,6 +16,7 @@
     height: 100%;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-content{
@@ -48,33 +49,11 @@
 }
 
 @media (max-width: 1200px){
-    .card{
-        display: grid;
-        
-        grid-template-areas: 
-        "card card";
-        grid-gap: 5px 5px;
-        padding: 5px;
-        
-    }
-    .card-content{
-        grid-area: "card";
-        
-    }
-    .card-content:hover{
-        width: 260px;
-        height: 310px;
-        transition: all .5s;
-    }
+   
 }
 @media(max-width: 600px){
     .card{
-        display: grid;
-        height: 80vh;
       
-        grid-gap: 0;
-        padding: 1px;
-        
     }
     .card-content{
         width: 150px;
