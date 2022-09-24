@@ -1,0 +1,26 @@
+
+
+.container{
+    width: 100vw; /*largura*/
+    height: 100vh;/*altura*/
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa{
+
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    background-color: aquamarine;
+    width: 90%;
+    height: 90%;
+}
