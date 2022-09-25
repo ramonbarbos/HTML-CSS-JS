@@ -31,7 +31,7 @@ nav{
     justify-content: center;
 }
 
-input[type=text]{
+.busca input[type=text]{
     width: 400px;
     height: 35px;
     border: 0 solid #fff;
@@ -96,7 +96,7 @@ input[type=text]{
     .busca{
         display: none;
     }
-    input[type=text]{
+    .busca input[type=text]{
         display: none;
     }
     .nav-menu{

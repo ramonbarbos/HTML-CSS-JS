@@ -2,14 +2,15 @@
 
 .container{
     width: 100vw; /*largura*/
-    height: 100vh;/*altura*/
-    background-color: #E5E5E5;
+    height: 95vh;/*altura*/
+    background: linear-gradient(to bottom, #E87F38 0, #E87F38 30%, #E5E5E5 20% );
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .caixa{
-
+    
     width: 450px;
     height: 600px;
     background-color: white;
@@ -20,7 +21,78 @@
     flex-direction: column;
 }
 .content{
-    background-color: aquamarine;
-    width: 90%;
-    height: 90%;
+    width: 85%;
+}
+
+.caixa h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #E87F38;
+}
+.content .input p{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+}
+.content input[type=text]{
+    border: 1px solid rgb(45, 45, 45);
+    width: 97%;
+    height: 40px;
+    padding: 0 0 0 5px;
+    outline: none;
+    border-radius: 3px;
+    
+}
+.container input[type=text]::placeholder{
+    color: #E5E5E5;
+}
+.content input[type=text]:hover
+{
+    color: #E87F38;
+    border: 1px solid #E87F38;
+}
+.input-caixa{
+    display: flex;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-caixa input[type=checkbox]{
+    max-width: 20px;
+    max-height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    
+}
+
+.input-caixa p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.input-caixa .acordo{
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+input[type=button]{
+    width: 180px;
+    height: 40px;
+    background-color: #E87F38;
+    border: 0 solid #E87F38;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type=button]:hover{
+    background-color: #ff9a57;
+    color: white;
+}
+input[type=button]:active{
+    background-color: #ff9a57;
+    color: white;
 }
