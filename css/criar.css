@@ -52,6 +52,23 @@
     color: #E87F38;
     border: 1px solid #E87F38;
 }
+.content input[type=password]{
+    border: 1px solid rgb(45, 45, 45);
+    width: 97%;
+    height: 40px;
+    padding: 0 0 0 5px;
+    outline: none;
+    border-radius: 3px;
+    
+}
+.container input[type=password]::placeholder{
+    color: #E5E5E5;
+}
+.content input[type=password]:hover
+{
+    color: #E87F38;
+    border: 1px solid #E87F38;
+}
 .input-caixa{
     display: flex;
     margin-top:10px ;
@@ -93,7 +110,7 @@ input[type=button]:hover{
     color: white;
 }
 input[type=button]:active{
-    background-color: #ff9a57;
+    background-color: #abd904d7;
     color: white;
 }
 
