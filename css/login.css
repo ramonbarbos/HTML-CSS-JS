@@ -37,6 +37,7 @@
     font-size: 14px;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: rgb(56, 56, 56);
 }
 .content input[type=text]{
     width: 97%;
@@ -51,7 +52,9 @@
     color: #E87F38;
     border: 1px solid #E87F38;
 }
-
+.content input[type=text]::placeholder{
+    color: #E5E5E5;
+}
 .content input[type=password]{
     width: 97%;
     height: 40px;
@@ -59,11 +62,14 @@
     border-radius: 3px;
     border: 1px solid rgb(45, 43, 43);
     padding: 0 0 0 5px;
-    transition: .5s;
+    transition: .2s;
 }
 .content input[type=password]:hover{
     color: #E87F38;
     border: 1px solid #E87F38;
+}
+.content input[type=password]::placeholder{
+    color: #E5E5E5;
 }
 .esqueceu{
     display: flex;
