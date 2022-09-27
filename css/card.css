@@ -44,13 +44,25 @@
     height: 310px;
     transition: all .5s;
 }
-.img{
+.card-content .img1,
+.card-content .img2,
+.card-content .img3,
+.card-content .img4,
+.card-content .img5,
+.card-content .img6,
+.card-content .img7,
+.card-content .img8 
+{
     width: 100%;
-    background-image: url("../20220926_200848_0005.png");
     background-size: cover;
     background-position: center;
     height: 300px;
 }
+/*Imagens*/
+.card-content .img1{
+    background-image: url("../img/produtos/1.png");
+}
+
 .desc{
     display: flex;
     align-items: center;
