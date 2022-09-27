@@ -20,7 +20,17 @@
     flex-wrap: wrap;
     margin: 5px;
 }
+.card a{
+    border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
+    text-decoration: none;
+}
+.card a:hover{
+    box-shadow: -1px -1px 10px 0px rgba(107, 107, 107, 0.514);
+    border-radius: 10px;
+    border: 0px solid rgb(235, 235, 235);
 
+}
 .card-content{
     width: 250px;
     height: 300px;
@@ -28,8 +38,6 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
-    box-shadow: -1px -1px 10px 0px rgba(107, 107, 107, 0.514);
 }
 .card-content:hover{
     width: 260px;
@@ -38,7 +46,9 @@
 }
 .img{
     width: 100%;
-    background-color: rgb(233, 233, 233);
+    background-image: url("../20220926_200848_0005.png");
+    background-size: cover;
+    background-position: center;
     height: 300px;
 }
 .desc{
