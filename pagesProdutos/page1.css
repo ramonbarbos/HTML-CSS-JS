@@ -107,11 +107,11 @@ header{
     margin-top: 10px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1020px){
     header{
         
         
-        min-height: 270vh;
+        min-height: 280vh;
         max-height: 100%;
     }
     .card{
@@ -126,6 +126,7 @@ header{
     }
 }
 @media(max-width: 800px){
+    
     .filtro{
         display: none;
         

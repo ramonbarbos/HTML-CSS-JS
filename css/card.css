@@ -62,6 +62,10 @@
 .card-content .img1{
     background-image: url("../img/produtos/1.png");
 }
+.card-content .img2{
+    background-image: url("../img/produtos/2.webp");
+    background-position: bottom;
+}
 
 .desc{
     display: flex;
