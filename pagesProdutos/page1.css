@@ -4,18 +4,19 @@ body{
     
 }
 
-.header-content{
+header{
     background-color: #F8F8F8;
     display: flex;
     flex-direction: column;
-    height: 200vh;
+    height: 150vh;
 }
 .titulo{
     width: 100%;
-    height: 70px;
+    height: 150px;
     display: flex;
     justify-content: center; 
     align-items: center;
+    color: rgb(31, 31, 31);
 }
 .filtro{
     width: 100%;
@@ -41,16 +42,27 @@ body{
 }
 
 .card{
-    margin-top: 50px;
+    
     display: flex;
     width: 100%;
-    max-height: 100vh;
+    height: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    background-color: #F8F8F8;
 }
 .card a{
     text-decoration: none;
     color: black;
+    border-radius: 7px;
+    transition: .5s;
+    margin: 5px;
+
+}
+.card a:hover{
+    box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
+    border: 0px solid rgb(195, 195, 195);
+   
 
 }
 
@@ -61,14 +73,9 @@ body{
     border: 1px solid rgb(195, 195, 195);
     border-radius: 7px;
     transition: .5s;
-}
-.card .card-content:hover{
-    width: 245px;
-    height: 390px;
-    font-size: 15px;
-    box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
     
 }
+
 .card-content .img{
     width: 100%;
     height: 230px;
@@ -101,37 +108,28 @@ body{
 }
 
 @media (max-width: 1200px){
+    header{
+        
+        
+        min-height: 270vh;
+        max-height: 100%;
+    }
     .card{
-        margin-top: 50px;
+    
         display: flex;
         width: 100%;
+        height: 220vh;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
-    .filtro{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        padding: 10px;
-        align-items: center;
+        
+       
     }
 }
 @media(max-width: 800px){
-    .header-content{
-        background-color: #F8F8F8;
-        display: flex;
-        flex-direction: column;
-        height: 300vh;
-    }
     .filtro{
-      display: none;
+        display: none;
+        
     }
-    .card .card-content{
-      margin: 10px;
-    }
-
-}
-@media(max-width: 400px){
     .titulo{
         width: 100%;
         height: 120px;
@@ -139,14 +137,22 @@ body{
         justify-content: center; 
         align-items: center;
     }
-    .header-content{
-        margin: 0 auto;
-        width: 100%;
-        height: 100vh;
+}
+@media(max-width: 400px){
+    header{
+        
+        
+        min-height: 500vh;
+        max-height: 100%;
     }
     .card{
+    
         display: flex;
         width: 100%;
+        height: 320vh;
+        justify-content: space-around;
         flex-wrap: wrap;
+        
+       
     }
 }
