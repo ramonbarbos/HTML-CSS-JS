@@ -139,11 +139,15 @@ header{
         align-items: center;
     }
 }
+@media(max-width: 600px){
+   
+
+}
 @media(max-width: 400px){
     header{
         
         
-        min-height: 500vh;
+        min-height: 550vh;
         max-height: 100%;
     }
     .card{

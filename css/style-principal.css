@@ -59,7 +59,14 @@ header{
     .ofertas {
 
         width: 90%;
-        height: 290vh;
+        height: 150vh;
+    }
+}
+@media(max-width: 600px){
+    .ofertas {
+
+        width: 90%;
+        height: 280vh;
     }
 }
 @media(max-width: 400px){
