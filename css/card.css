@@ -11,7 +11,7 @@
     color: rgb(59, 59, 59);
 }
 
-.card{
+header .card{
     display: flex;
     width: 100%;
     height: 100%;
@@ -20,12 +20,12 @@
     flex-wrap: wrap;
     margin: 5px;
 }
-.card a{
+header .card a{
     border-radius: 10px;
     border: 1px solid rgb(235, 235, 235);
     text-decoration: none;
 }
-.card a:hover{
+header .card a:hover{
     box-shadow: -1px -1px 10px 0px rgba(107, 107, 107, 0.514);
     border-radius: 10px;
     border: 0px solid rgb(235, 235, 235);
@@ -92,13 +92,13 @@
 }
 @media(max-width: 600px){
 
-    .card-content{
+    header .card-content{
         width: 150px;
         height: 200px;
         
       
     }
-    .card-content:hover{
+    header .card-content:hover{
         width: 155px;
         height: 205px;
         transition: all .5s;

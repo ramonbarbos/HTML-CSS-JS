@@ -1,0 +1,94 @@
+
+.ofertas .titulo{
+    
+}
+
+.ofertas .card{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.ofertas .card a{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    transition: .5s;
+    margin: 5px;
+
+}
+.ofertas .card a:hover{
+    box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
+    border: 0px solid rgb(195, 195, 195);
+   
+
+}
+
+.ofertas .card .card-content{
+    width: 240px;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+    transition: .5s;
+    
+}
+
+.ofertas .card-content .img{
+    width: 100%;
+    height: 230px;
+    background-image: url("../20220926_212756_0000.png");
+    background-size: cover;
+    background-position: center;
+}
+.ofertas .card-content .desc{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 15px;
+}
+.ofertas .card-content .desc p{
+    margin-left: 10px;
+}
+
+.ofertas .card-content .preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ofertas .card-content .preco p{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1200px){
+    .ofertas .card{
+        
+        width: 100%;
+        height: 200vh;
+        justify-content: space-around;
+       
+        margin: 0px;
+    }
+   
+}
+@media(max-width: 600px){
+    .ofertas .card{
+        
+        width: 100%;
+        height: 300vh;
+      
+       
+      
+    }
+   
+}

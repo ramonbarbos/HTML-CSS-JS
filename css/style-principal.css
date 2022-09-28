@@ -26,6 +26,16 @@ header{
     background-color: #FCFCFC;
 }
 
+.ofertas {
+    background-color: #FCFCFC;
+   
+    margin: 0 auto;
+    width: 90%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
 @media (max-width: 1200px){
@@ -34,12 +44,22 @@ header{
         width: 100%;
         height: 120vh;
     }
+    .ofertas {
+
+        width: 90%;
+        height: 150vh;
+    }
 }
 @media(max-width: 1020px){
     header{
         margin: 0 auto;
         width: 100%;
         height: 250vh;
+    }
+    .ofertas {
+
+        width: 90%;
+        height: 290vh;
     }
 }
 @media(max-width: 400px){
@@ -48,5 +68,10 @@ header{
         width: 100%;
         height: 150vh;
     }
-    
+    .ofertas {
+
+        width: 90%;
+        height: 280vh;
+    }
+   
 }
