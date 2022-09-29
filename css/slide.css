@@ -103,6 +103,12 @@
     .containerproje{
         position: static;
     }
+    .containerproje .slide-container:nth-child(1) .slide{
+        background-image: url("../20220926_203003_0000.png");
+        background-position: center;
+        transition: 1s;
+    
+    }
     .containerproje #prev{
         display: none;
         top: 60%;

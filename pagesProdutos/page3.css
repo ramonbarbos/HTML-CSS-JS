@@ -1,9 +1,4 @@
-header{
-    display: flex;
-    background-color: #F8F8F8;
-    flex-direction: column;
-    height: 150vh;
-}
+
 .titulo{
     display: flex;
     justify-content: center; 
@@ -102,12 +97,7 @@ header{
 }
 
 @media (max-width: 1020px){
-    header{
-        
-        
-        min-height: 280vh;
-        max-height: 100%;
-    }
+   
     .card{
     
         display: flex;
@@ -120,7 +110,7 @@ header{
     }
 }
 @media(max-width: 800px){
-    
+   
     .filtro{
         display: none;
         
@@ -134,12 +124,7 @@ header{
     }
 }
 @media(max-width: 400px){
-    header{
-        
-        
-        min-height: 500vh;
-        max-height: 100%;
-    }
+  
     .card{
     
         display: flex;
