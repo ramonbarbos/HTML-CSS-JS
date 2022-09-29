@@ -66,6 +66,10 @@ header .card a:hover{
     background-image: url("../img/produtos/2.webp");
     background-position: bottom;
 }
+.card-content .img3{
+    background-image: url("../img/produtos/1xg.jpg");
+    background-position: bottom;
+}
 
 .desc{
     display: flex;
