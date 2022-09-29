@@ -1,18 +1,26 @@
 
-.ofertas .titulo{
-    
-}
+
 
 .ofertas .card{
     display: flex;
     width: 100%;
-    height: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
-
-
+.ofertas .titulo  {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+}
+.ofertas .titulo p {
+    font-size: 25px;
+}
 .ofertas .card a{
     text-decoration: none;
     color: black;
