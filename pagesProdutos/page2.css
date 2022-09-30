@@ -15,7 +15,6 @@
     align-items: center;
     color: rgb(31, 31, 31);
 }
-
 .filtro{
     width: 100%;
     display: flex;
@@ -23,13 +22,11 @@
     padding: 10px;
     align-items: center;
 }
-
 .ordem{
     display: flex;
     font-weight: 500;
     align-items: center;
 }
-
 .ordem select{
     width: 250px;
     height: 30px;
@@ -37,7 +34,6 @@
     outline: none;
     margin-left: 15px;
 }
-
 .qtd-Itens{
     margin-right: 15px;
 }
@@ -51,7 +47,6 @@
     flex-wrap: wrap;
     align-items: center;
 }
-
 .card a{
     text-decoration: none;
     color: black;
@@ -60,7 +55,6 @@
     margin: 5px;
 
 }
-
 .card a:hover{
     box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
     border: 0px solid rgb(195, 195, 195);
@@ -109,7 +103,6 @@
     margin-left: 7px;
     margin-right:  7px;
 }
-
 .card-content .desc p{
 
 }
