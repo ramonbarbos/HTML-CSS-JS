@@ -3,7 +3,7 @@
 .container{
     width: 100vw; /*largura*/
     height: 95vh;/*altura*/
-    background: linear-gradient(to bottom, #ffffff 0, #e5e5e5 30%, #E87F38 20% );
+    background: linear-gradient(to bottom, #ffffff 0, #e5e5e5 30%, #FE9603  20% );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 .caixa h2{
     font-size: 22px;
     font-weight: 600;
-    color: #E87F38;
+    color: #FE9603;
 }
 .content .input p{
     margin-top: 10px ;
@@ -55,7 +55,7 @@
 .content input[type=text]:hover
 {
     color: #E87F38;
-    border: 1px solid #E87F38;
+    border: 1px solid #FE9603;
 }
 .content input[type=password]{
     border: 1px solid rgb(45, 45, 45);
@@ -72,7 +72,7 @@
 .content input[type=password]:hover
 {
     color: #E87F38;
-    border: 1px solid #E87F38;
+    border: 1px solid #FE9603;
 }
 .input-caixa{
     display: flex;
@@ -90,7 +90,7 @@
     
 }
 .input-caixa input[type=checkbox]:checked{
-   background-color: #ff9a57;
+   background-color: #FE9603;
     
 }
 
@@ -106,8 +106,8 @@
 input[type=button]{
     width: 180px;
     height: 40px;
-    background-color: #E87F38;
-    border: 0 solid #E87F38;
+    background-color: #FE9603;
+    border: 0 solid #FE9603;
     border-radius: 7px;
     color: white;
     font-size: 15px;
@@ -115,7 +115,7 @@ input[type=button]{
 }
 
 input[type=button]:hover{
-    background-color: #ff9a57;
+    background-color: #FE9603;
     color: white;
 }
 input[type=button]:active{
