@@ -3,7 +3,7 @@
 .container{
     width: 100vw; /*largura*/
     height: 95vh;/*altura*/
-    background: linear-gradient(to bottom, #ffffff 0, #e5e5e5 30%, #FE9603  20% );
+    background: linear-gradient(to bottom, #eae8e7 0, #eae8e7 30%, #FE9603  20% );
     display: flex;
     justify-content: center;
     align-items: center;

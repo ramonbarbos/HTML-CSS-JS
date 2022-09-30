@@ -76,6 +76,11 @@ header .card a:hover{
     background-position: bottom;
 }
 
+.card-content .img4{
+    background-image: url(../img/produtos/cafe-especial-torrado-e-moido-250g-cafes-pagliaroni.jpg);
+    background-position: bottom; 
+}
+
 .desc{
     display: flex;
     align-items: center;
