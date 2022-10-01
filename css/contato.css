@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to bottom, #eae8e7 0, #eae8e7 40%, #FE9603  20% );
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.caixa{
+    
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 0px solid black;
+    border-radius: 10px;
+
+}
+.icon-contato img{
+    width: 8%;
+    margin-left: 10px;
+}
+
+.numero-contato{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 18px;
+
+}
+.email{
+margin-left: 10px;
+font-size: 18px;
+
+}
+
+.redes-social img{
+    width: 80%;
+
+}
