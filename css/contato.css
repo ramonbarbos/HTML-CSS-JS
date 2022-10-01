@@ -5,38 +5,77 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 8%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 40px 10px;
 }
 
 .caixa{
-    
-    width: 1200px;
-    height: 600px;
+    width: 1000px;
+    height: 300px;
     background-color: white;
     display: flex;
-    align-items: center;
     border: 0px solid black;
     border-radius: 10px;
 
 }
-.icon-contato img{
+.numero-contato img{
     width: 8%;
     margin-left: 10px;
+    display: flex;
+    margin-right: 10px;
 }
 
 .numero-contato{
     font-weight: bold;
-    margin-left: 10px;
     font-size: 18px;
-
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60%;
+    
 }
 .email{
-margin-left: 10px;
-font-size: 18px;
-
+    margin-left: 10px;
+    font-size: 18px;
+    display: flex;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40%;
 }
+
+
 
 .redes-social img{
-    width: 80%;
+    width: 40%;
 
 }
+
+.box{
+  height: 100%; 
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+}
+
+.input [type=text]{
+    border: 0px solid black;
+    outline: none;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
