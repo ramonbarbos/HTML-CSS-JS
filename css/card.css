@@ -29,12 +29,13 @@ header .card a{
     border-radius: 10px;
     border: 1px solid rgb(235, 235, 235);
     text-decoration: none;
+
 }
 header .card a:hover{
     box-shadow: -1px -1px 10px 0px rgba(107, 107, 107, 0.514);
     border-radius: 10px;
     border: 0px solid rgb(235, 235, 235);
-
+    
 }
 .card-content{
     width: 250px;

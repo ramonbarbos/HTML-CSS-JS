@@ -92,11 +92,28 @@
     background-position: center;
 }
 .card-content .img1{
-    background-image: url("../img/produtos/page1/cafe1.png");
+    background-image: url("../img/produtos/page1/1.webp");
 }
 .card-content .img2{
-    background-image: url("../img/produtos/page1/cafe2.png");
-
+    background-image: url("../img/produtos/page1/2.webp");
+}
+.card-content .img3{
+    background-image: url("../img/produtos/page1/3.webp");
+}
+.card-content .img4{
+    background-image: url("../img/produtos/page1/4.webp");
+}
+.card-content .img5{
+    background-image: url("../img/produtos/page1/5.webp");
+}
+.card-content .img6{
+    background-image: url("../img/produtos/page1/5.webp");
+}
+.card-content .img7{
+    background-image: url("../img/produtos/page1/2.webp");
+}
+.card-content .img8{
+    background-image: url("../img/produtos/page1/2.webp");
 }
 .card-content .desc{
     width: 100%;
@@ -106,8 +123,8 @@
     font-weight: 500;
     background-color: transparent;
     font-size: 15px;
-    margin-left: 7px;
-    margin-right:  7px;
+    margin-left: 17px;
+    margin-right:  17px;
 }
 
 .card-content .desc p{
@@ -118,8 +135,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 7px;
-    margin-right:  7px;
+    margin-left: 17px;
+    margin-right:  17px;
 }
 .card-content .preco h6{
     font-size: 15px;
