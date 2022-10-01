@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, #eae8e7 0, #eae8e7 40%, #FE9603  20% );
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 40%, #FE9603  20% );
 }
 .container{
     display: flex;
@@ -10,15 +10,17 @@ body{
 .info{
     display: flex;
     justify-content: center;
-    padding: 10px 10px 40px 10px;
+    align-items: center;
+    height: 10vh;
+    
 }
 
 .caixa{
     width: 1000px;
-    height: 300px;
+    height: 350px;
     background-color: white;
     display: flex;
-    border: 0px solid black;
+    border: 0.5px solid black;
     border-radius: 10px;
 
 }
@@ -27,13 +29,14 @@ body{
     margin-left: 10px;
     display: flex;
     margin-right: 10px;
+    
 }
 
 .numero-contato{
     font-weight: bold;
     font-size: 18px;
     display: flex;
-    height: 10%;
+    height: 15%;
     justify-content: center;
     align-items: center;
     margin-right: 60%;
@@ -43,35 +46,68 @@ body{
     margin-left: 10px;
     font-size: 18px;
     display: flex;
-    height: 10%;
+    height: 15%;
     justify-content: center;
     align-items: center;
     margin-right: 40%;
+    
 }
 
 
+.redes-social{
+    width: 100%;
+    
+}
 
 .redes-social img{
     width: 40%;
+    margin-left: 15px;
 
 }
 
-.box{
-  height: 100%; 
-  width: 100%;  
-  display: flex;
-  flex-direction: column;
-}
+
 
 .input [type=text]{
-    border: 0px solid black;
     outline: none;
     width: 80%;
     height: 30px;
     margin-bottom: 20px;
     margin-top: 10px;
+    border: 0.5px solid black;
+    border-radius: 6px;
 }
 
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.enviar input[type=button]{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    border: 0 solid white;
+    border-radius: 7px;
+    font-weight: 600px;
+    font-size: 15px;
+    transition: .5s; 
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #FE9603;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.tex-area textarea{
+    outline: none;
+}
 
 
 
