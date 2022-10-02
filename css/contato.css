@@ -107,6 +107,8 @@ body{
 
 .tex-area textarea{
     outline: none;
+    resize: none;
+    
 }
 
 

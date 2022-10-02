@@ -84,7 +84,47 @@
 .card-content .img{
     width: 100%;
     height: 230px;
-    background-image: url("../img/produtos/cafe-especial-torrado-e-moido-250g-cafes-pagliaroni.jpg");
+    background-image: url("../img/produtos/page4/café-cerrado-mineiro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img2{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page4/café-mogiana.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img3{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page4/581618.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img4{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page4/café-organico.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img5{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page4/café-sul-de-minas.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img6{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page4/café-moido-especial.jpg");
     background-size: cover;
     background-position: center;
 }

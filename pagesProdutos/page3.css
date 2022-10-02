@@ -85,7 +85,39 @@
 .card-content .img{
     width: 100%;
     height: 230px;
-    background-image: url("../img/produtos/1xg.jpg");
+    background-image: url("../img/produtos/page3/Capsula-Cafe-Tres-Coracoes-Rituais-Mogiana-Paulista-10-Capsulas-25g.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img2{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-ameno.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img3{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-pleno.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img4{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-colombia.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img5{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso.jpg");
     background-size: cover;
     background-position: center;
 }
