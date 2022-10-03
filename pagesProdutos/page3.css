@@ -69,12 +69,13 @@
     border: 1px solid rgb(195, 195, 195);
     border-radius: 7px;
 }
+
 .card-content .preco {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 7px;
-    margin-right:  7px;
+    margin-left: 17px;
+    margin-right:  17px;
 }
 
 .card-content .preco h6{
@@ -130,8 +131,8 @@
     font-weight: 500;
     background-color: transparent;
     font-size: 15px;
-    margin-left: 7px;
-    margin-right:  7px;
+    margin-left: 17px;
+    margin-right:  17px;
 
 }
 

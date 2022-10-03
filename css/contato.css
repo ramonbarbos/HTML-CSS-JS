@@ -2,17 +2,25 @@ body{
     background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 40%, #FE9603  20% );
 }
 .container{
+    width: 100vw;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 8%;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     padding: 20px;
+
 }
 .info{
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 10vh;
-    
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .caixa{
@@ -20,8 +28,9 @@ body{
     height: 350px;
     background-color: white;
     display: flex;
-    border: 0.5px solid black;
     border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px rgba(166, 166, 166, 0.578);
+
 
 }
 .numero-contato img{
@@ -37,19 +46,21 @@ body{
     font-size: 18px;
     display: flex;
     height: 15%;
-    justify-content: center;
+    width: 100%;
     align-items: center;
-    margin-right: 60%;
     
 }
+.form{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
 .email{
-    margin-left: 10px;
     font-size: 18px;
     display: flex;
     height: 15%;
-    justify-content: center;
+    width: 100%;
     align-items: center;
-    margin-right: 40%;
     
 }
 
@@ -60,9 +71,8 @@ body{
 }
 
 .redes-social img{
-    width: 40%;
-    margin-left: 15px;
-
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -71,21 +81,15 @@ body{
     outline: none;
     width: 80%;
     height: 30px;
-    margin-bottom: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     border: 0.5px solid black;
     border-radius: 6px;
 }
 
-.content{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .enviar input[type=button]{
-    width: 180px;
+    width: 150px;
     height: 40px;
     background-color: white;
     border: 0 solid white;
@@ -94,9 +98,10 @@ body{
     font-size: 15px;
     transition: .5s; 
     margin-top: 10px;
-    border: 1px solid black;
+    border: 0px solid black;
     border-radius: 6px;
     background-color: #FE9603;
+    color: white;
 
 }
 
@@ -108,10 +113,71 @@ body{
 .tex-area textarea{
     outline: none;
     resize: none;
+    margin-top: 10px;
     
 }
 
+@media(max-width: 600px){
 
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .caixa{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        border-radius: 0;
+    }
+    .content{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         padding: 5px;
+    
+    }
+    .form{
+        display: flex;
+        height: 700px;
+        align-items: center;
+    }
+    .info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .numero-contato{
+        justify-content: center;
+        align-items: center; 
+    }
+    .email{
+        font-size: 18px;
+        display: flex;
+        height: 15%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    .redes-social{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        height: 50px;
+        align-items: center;
+    }
+}
 
 
 
