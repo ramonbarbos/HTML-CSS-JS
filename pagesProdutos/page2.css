@@ -86,11 +86,28 @@
     background-position: center;
 }
 .card-content .img1{
-    background-image: url("../img/produtos/page1/cafe1.png");
+    background-image: url("../img/produtos/page2/cafe1.webp");
 }
 .card-content .img2{
-    background-image: url("../img/produtos/page1/cafe2.png");
-
+    background-image: url("../img/produtos/page2/cafe2.webp");
+}
+.card-content .img3{
+    background-image: url("../img/produtos/page2/cafe3.webp");
+}
+.card-content .img4{
+    background-image: url("../img/produtos/page2/cafe4.webp");
+}
+.card-content .img5{
+    background-image: url("../img/produtos/page2/cafe5.webp");
+}
+.card-content .img6{
+    background-image: url("../img/produtos/page2/cafe6.webp");
+}
+.card-content .img7{
+    background-image: url("../img/produtos/page2/cafe7.webp");
+}
+.card-content .img8{
+    background-image: url("../img/produtos/page2/cafe8.png");
 }
 .card-content .desc{
     width: 100%;

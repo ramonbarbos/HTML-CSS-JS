@@ -11,10 +11,12 @@ form.addEventListener('submit', (e) => {
 })
 
 function checkInputs(){
-    const nomeValue = nome.trim()
+
+    const nomeValue = nome.value.trim()
     const emailValue = email.value.trim()
-    const cpfValue = email.value.trim()
+    const cpfValue = cpf.value.trim()
     const senhaValue = senha.value.trim()
+
     if(nomeValue === ''){
         errorValidation(nome,"Preencha o campo")
     }else{
