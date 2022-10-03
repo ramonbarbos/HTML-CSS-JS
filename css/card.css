@@ -82,6 +82,16 @@ header .card a:hover{
     background-position: bottom; 
 }
 
+.card-content .img5{
+    background-image: url(../img/produtos/page5/acessorio8.png);
+    background-position: bottom;
+}
+
+.card-content .img6{
+    background-image: url(../img/produtos/page6/kit3.png);
+    background-position: bottom;
+}
+
 .desc{
     display: flex;
     align-items: center;
