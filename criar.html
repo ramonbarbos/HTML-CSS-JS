@@ -60,23 +60,36 @@
             </div>
 
             <div class="content">
+            <form action="form" id="form">
+    
+                    <div class="input">
+                        <p>Digite seu nome</p>
+                        <input id="nome" type="text" placeholder="nome.." required>
 
-                <div class="input">
-                    <p>Digite seu nome</p>
-                    <input type="text" placeholder="nome.." required>
-                </div>
-                <div class="input">
-                    <p>Seu E-mail</p>
-                    <input type="text" placeholder="email" required>
-                </div>
-                <div class="input">
-                    <p>Seu CPF</p>
-                    <input type="text" placeholder="CPF" required>
-                </div>
-                <div class="input">
-                    <p>Sua Senha</p>
-                    <input type="password" placeholder="senha" required>
-                </div>
+                        <i><img class="img-success" src="img/icones/success.png" alt=""></i>
+                        <i><img class="img-error" src="img/icones/cross.png" alt=""></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="input">
+                        <p>Seu E-mail</p>
+                        <input id="email" type="text" placeholder="email" required>
+
+                        <i><img class="img-success" src="img/icones/success.png" alt=""></i>
+                        <i><img class="img-error" src="img/icones/cross.png" alt=""></i>
+                        <small>Error message</small>
+
+                    </div>
+
+                    <div class="input">
+                        <p>Seu CPF</p>
+                        <input id="cpf" type="text" placeholder="CPF" required>
+                    </div>
+                    <div class="input">
+                        <p>Sua Senha</p>
+                        <input id="senha" type="password" placeholder="senha" required>
+                    </div>
+                </form>
 
                 <div class="input-caixa">
                   <input type="checkbox" name="" id=""> 
@@ -92,11 +105,11 @@
                   
             </div>
 
-            <a href="login.html"><input type="button" value="Continuar"> </a>
+            <input type="submit" value="Continuar" > 
         </div>
 
     </div>
-
+    <script src="js/validation.js"></script>
     <script src="js/navbar-mobile.js"></script>
 </body>
 </html>

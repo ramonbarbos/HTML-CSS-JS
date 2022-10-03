@@ -49,6 +49,41 @@
     transition: .2s;
     
 }
+/*Validação*/
+.content .input.success input[type=text]{
+    border: 1px solid rgba(72, 220, 13, 0.765); 
+    position: ab;
+}
+
+.content .input.error input[type=text]{
+    border: 1px solid rgba(220, 16, 13, 0.765); 
+}
+
+.content .input.success i .img-success{
+    visibility: visible;
+}
+
+.content .input.error i .img-error{
+    visibility: visible;
+}
+.content .input.error small{
+    visibility: visible;
+}
+
+/*FIM*/
+
+.content .input small{
+    visibility: hidden;
+    color: red;
+}
+
+.content .input i img{
+    width: 15px;
+    height: 15px;
+    visibility: hidden;
+    position: absolute;
+}
+
 .container input[type=text]::placeholder{
     color: #E5E5E5;
 }
@@ -103,7 +138,8 @@
     margin-left: 10px;
 }
 
-input[type=button]{
+
+input[type=submit]{
     width: 180px;
     height: 40px;
     background-color: #FE9603;
@@ -114,11 +150,11 @@ input[type=button]{
     font-weight: 500;
 }
 
-input[type=button]:hover{
+input[type=submit]:hover{
     background-color: #FE9603;
     color: white;
 }
-input[type=button]:active{
+input[type=submit]:active{
     background-color: #abd904d7;
     color: white;
 }
