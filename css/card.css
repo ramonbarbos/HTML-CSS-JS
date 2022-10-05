@@ -91,6 +91,14 @@ header .card a:hover{
     background-image: url(../img/produtos/page6/kit3.png);
     background-position: bottom;
 }
+.card-content .img7{
+    background-image: url(../img/produtos/page7/presente.jpg);
+    background-position: bottom;
+}
+.card-content .img8{
+    background-image: url(../img/produtos/page8/pç2.jpg);
+    background-position: bottom;
+}
 
 .desc{
     display: flex;

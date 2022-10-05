@@ -3,7 +3,7 @@
 .container{
     width: 100vw; /*largura*/
     height: 95vh;/*altura*/
-    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #FE9603  20% );
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #2E6E41  20% );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 .caixa h2{
     font-size: 22px;
     font-weight: 600;
-    color: #FE9603;
+    color: #2E6E41;
 }
 .content .input p{
     margin-top: 10px ;
@@ -48,6 +48,7 @@
     border-radius: 3px;
     transition: .2s;
     
+    
 }
 /*Validação*/
 .content .input.success input[type=text]{
@@ -57,6 +58,7 @@
 
 .content .input.error input[type=text]{
     border: 1px solid rgba(220, 16, 13, 0.765); 
+    
 }
 
 .content .input.success i .img-success{
@@ -89,8 +91,8 @@
 }
 .content input[type=text]:hover
 {
-    color: #E87F38;
-    border: 1px solid #FE9603;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .content input[type=password]{
     border: 1px solid rgb(45, 45, 45);
@@ -106,8 +108,8 @@
 }
 .content input[type=password]:hover
 {
-    color: #E87F38;
-    border: 1px solid #FE9603;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .input-caixa{
     display: flex;
@@ -125,7 +127,7 @@
     
 }
 .input-caixa input[type=checkbox]:checked{
-   background-color: #FE9603;
+   background-color: #2E6E41;
     
 }
 
@@ -142,8 +144,8 @@
 input[type=submit]{
     width: 180px;
     height: 40px;
-    background-color: #FE9603;
-    border: 0 solid #FE9603;
+    background-color: #2E6E41;
+    border: 0 solid #2E6E41;
     border-radius: 7px;
     color: white;
     font-size: 15px;
@@ -151,7 +153,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: #FE9603;
+    background-color: #2E6E41;
     color: white;
 }
 input[type=submit]:active{
