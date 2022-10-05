@@ -29,25 +29,26 @@
 }
 /*Primeiro Slide*/
 .containerproje .slide-container:nth-child(1) .slide{
-    background-image: url("../png_20220926_201709_0000.png");
-    background-size: cover;
+    background-image: url("../img/slide/BANNER1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     transition: 1s;
 
 }
 .containerproje .slide-container:nth-child(2) .slide{
-    background-image: url("../img/slide/2.jpg");
-    background-size: cover;
-    background-repeat: repeat;
+    background-image: url("../img/slide/BANNER2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 
     transition: 1s;
     
 }
 .containerproje .slide-container:nth-child(3) .slide{
-    background-image: url("../img/slide/3.jpg");
-    background-size: cover;
-    background-repeat: repeat;
+    background-image: url("../img/slide/BANNER3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 
     transition: 1s;
@@ -103,11 +104,10 @@
     .containerproje{
         position: static;
     }
-    .containerproje .slide-container:nth-child(1) .slide{
-        background-image: url("../20220926_203003_0000.png");
-        background-position: center;
-        transition: 1s;
-    
+    .containerproje .slide-container .slide{
+        max-width: 100vw;   
+        min-height: 10vh;
+        
     }
     .containerproje #prev{
         display: none;

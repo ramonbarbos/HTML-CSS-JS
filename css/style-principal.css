@@ -14,7 +14,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-color: #F4F7FA;
     
 }
 
@@ -43,7 +43,7 @@ main{
     height: 110px;
     display: flex;
     align-items: center;
-    background-color: #FE9603 ;
+    background-color: #0D9545 ;
 }
 
 
@@ -85,7 +85,7 @@ main{
         height: 300px;
         display: flex;
         align-items: center;
-        background-color: #FE9603 ;
+       
     }
 }
 @media(max-width: 600px){

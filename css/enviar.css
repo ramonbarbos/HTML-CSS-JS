@@ -35,7 +35,7 @@ main .receber .logo p{
     background-color: #ffffff;
     border: 0 solid #ffffff;
     border-radius: 7px;
-    color: #FE9603;
+    color: #2E6E41;
     font-size: 15px;
     font-weight: 500;
     transition: .5s;
@@ -47,7 +47,7 @@ main .receber .logo p{
 }
 .btn input[type=button]:active{
     background-color: #fff;
-    color: #FE9603;
+    color: #0D9545;
 }
 
 @media (max-width: 1200px){

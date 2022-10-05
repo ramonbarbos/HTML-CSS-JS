@@ -1,7 +1,7 @@
 .container{
     width: 100vw;
     height: 95vh;
-    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #FE9603  20% );
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #2E6E41  20% );
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@
 .caixa h2{
     font-size: 22px;
     font-weight: 600;
-    color: #FE9603;
+    color: #2E6E41;
 }
 
 .content{
@@ -49,8 +49,8 @@
     transition: .5s;
 }
 .content input[type=text]:hover{
-    color: #FE9603;
-    border: 1px solid #FE9603;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .content input[type=text]::placeholder{
     color: #E5E5E5;
@@ -65,8 +65,8 @@
     transition: .2s;
 }
 .content input[type=password]:hover{
-    color: #E87F38;
-    border: 1px solid #E87F38;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .content input[type=password]::placeholder{
     color: #E5E5E5;
@@ -81,7 +81,7 @@
 .esqueceu a{
     text-decoration: none;
     font-size: 13px;
-    color: #FE9603;
+    color: #2E6E41;
     transition: .5s;
 }
 .esqueceu a:hover{
@@ -107,8 +107,8 @@
 .continuar input[type=button]{
     width: 180px;
     height: 40px;
-    background-color: #FE9603;
-    border: 0 solid #FE9603;
+    background-color: #2E6E41;
+    border: 0 solid #2E6E41;
     border-radius: 7px;
     color: white;
     font-size: 15px;
@@ -116,7 +116,7 @@
     transition: .5s;
 }
 .continuar input[type=button]:hover{
-    background-color: #FE9603; 
+    background-color: #2E6E41; 
 }
 .continuar input[type=button]:active{
     background-color: #abd904d7;
@@ -128,7 +128,7 @@
     background-color: white;
     border: 0 solid white;
     border-radius: 7px;
-    color: #FE9603;
+    color: #2E6E41;
     font-size: 15px;
     font-weight: 500;
     transition: .5s; 
@@ -141,7 +141,7 @@
 }
 
 .cadastra input[type=button]:active{
-    background-color: #FE9603;
+    background-color: #2E6E41;
     transition: .0s;
 }
 
