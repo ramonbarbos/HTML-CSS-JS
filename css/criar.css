@@ -3,7 +3,7 @@
 .container{
     width: 100vw; /*largura*/
     height: 95vh;/*altura*/
-    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #FE9603  20% );
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #2E6E41  20% );
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@
 .caixa h2{
     font-size: 22px;
     font-weight: 600;
-    color: #FE9603;
+    color: #0b6b33;
 }
 .content .input p{
     margin-top: 10px ;
@@ -142,8 +142,8 @@
 input[type=submit]{
     width: 180px;
     height: 40px;
-    background-color: #FE9603;
-    border: 0 solid #FE9603;
+    background-color: #0b6b33;
+    border: 0 solid #0b6b33;
     border-radius: 7px;
     color: white;
     font-size: 15px;
