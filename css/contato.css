@@ -1,5 +1,9 @@
 body{
-    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 40%, #FE9603  20% );
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #2E6E41  20% );
+}
+textarea{
+    resize: none;
+    width: 80%;
 }
 .container{
     width: 100vw;
@@ -39,6 +43,11 @@ body{
     display: flex;
     margin-right: 10px;
     
+}
+.feed{
+    color: #2E6E41;
+    justify-content: center;
+    display: flex;
 }
 
 .numero-contato{
@@ -100,7 +109,7 @@ body{
     margin-top: 10px;
     border: 0px solid black;
     border-radius: 6px;
-    background-color: #FE9603;
+    background-color: #2E6E41;
     color: white;
 
 }

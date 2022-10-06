@@ -31,6 +31,7 @@
     font-size: 22px;
     font-weight: 600;
     color: #0b6b33;
+    color: #2E6E41;
 }
 .content .input p{
     margin-top: 10px ;
@@ -48,6 +49,7 @@
     border-radius: 3px;
     transition: .2s;
     
+    
 }
 /*Validação*/
 .content .input.success input[type=text]{
@@ -57,6 +59,7 @@
 
 .content .input.error input[type=text]{
     border: 1px solid rgba(220, 16, 13, 0.765); 
+    
 }
 
 .content .input.success i .img-success{
@@ -89,8 +92,8 @@
 }
 .content input[type=text]:hover
 {
-    color: #E87F38;
-    border: 1px solid #FE9603;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .content input[type=password]{
     border: 1px solid rgb(45, 45, 45);
@@ -106,8 +109,8 @@
 }
 .content input[type=password]:hover
 {
-    color: #E87F38;
-    border: 1px solid #FE9603;
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
 }
 .input-caixa{
     display: flex;
@@ -125,7 +128,7 @@
     
 }
 .input-caixa input[type=checkbox]:checked{
-   background-color: #FE9603;
+   background-color: #2E6E41;
     
 }
 
@@ -142,8 +145,11 @@
 input[type=submit]{
     width: 180px;
     height: 40px;
+
     background-color: #0b6b33;
     border: 0 solid #0b6b33;
+    background-color: #2E6E41;
+    border: 0 solid #2E6E41;
     border-radius: 7px;
     color: white;
     font-size: 15px;
@@ -151,7 +157,7 @@ input[type=submit]{
 }
 
 input[type=submit]:hover{
-    background-color: #FE9603;
+    background-color: #2E6E41;
     color: white;
 }
 input[type=submit]:active{
