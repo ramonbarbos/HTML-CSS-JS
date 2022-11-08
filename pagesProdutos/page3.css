@@ -1,0 +1,225 @@
+
+.fundo{
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    color: rgb(32, 32, 32);
+}
+.filtro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.ordem{
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+}
+
+.ordem select{
+    width: 250px;
+    height: 30px;
+    border: 0px solid black;
+    outline: none;
+    margin-left: 15px;
+}
+
+.qntds-itens{
+    margin-right: 15px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    transition: .5s;
+    margin: 5px;
+}
+
+.card a:hover{
+    box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
+    border: 0px solid rgb(195, 195, 195);
+    
+}
+
+.card:hover > .card-content  > .img5 > .card__button--list {
+    display: flex;
+}
+
+.card .card-content{
+    width: 240px;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+}
+
+.card-content .preco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right:  17px;
+}
+
+.card-content .preco h6{
+    font-size: 15px;
+    color: #985225;
+}
+
+.valor{
+    font-size: 15px;
+    color: #985225;
+    border: none; 
+    outline: none;
+    display: none;
+}
+
+
+
+.card-content .img{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/Capsula-Cafe-Tres-Coracoes-Rituais-Mogiana-Paulista-10-Capsulas-25g.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img2{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-ameno.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img3{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-pleno.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img4{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso-colombia.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .img5{
+    width: 100%;
+    height: 230px;
+    background-image: url("../img/produtos/page3/café-espresso.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content .desc{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 17px;
+    margin-right:  17px;
+
+}
+
+.card-content .preco p{
+    margin-top: 3px;
+    font-size: 11px;
+}
+
+@media (max-width: 1020px){
+    .fundo{
+        width: 100%;
+        
+    }
+    .card{
+    
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+       
+    }
+}
+@media(max-width: 800px){
+    .fundo{
+        height: 220vh;
+    }
+    .filtro{
+        display: none;
+        
+    }
+    .card{
+    
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        
+       
+    }
+    .titulo{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+}
+@media(max-width: 550px){
+    .fundo{
+        height: 440vh;
+    }
+    .card{
+    
+        display: flex;
+        width: 100%;
+        height: 200vh;
+        
+       
+    }
+     
+}
+@media(max-width: 400px){
+    .fundo{
+        height: 550vh;
+    }
+    .card{
+    
+        display: flex;
+        width: 100%;
+        height: 250vh;
+        
+       
+    }
+}

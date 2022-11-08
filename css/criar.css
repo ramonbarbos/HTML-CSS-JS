@@ -1,0 +1,180 @@
+
+
+.container{
+    width: 100vw; /*largura*/
+    height: 95vh;/*altura*/
+    background: linear-gradient(to bottom, #f3f3f3 0, #f3f3f3 30%, #2E6E41  20% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.caixa{
+    
+    width: 450px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     box-shadow: 0px 0px 8px 1px rgba(166, 166, 166, 0.578);
+
+}
+.content{
+    width: 85%;
+
+}
+
+.caixa h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #0b6b33;
+    color: #2E6E41;
+}
+.content .input p{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(56, 56, 56);
+    
+}
+.content input[type=text]{
+    border: 1px solid rgb(45, 45, 45);
+    width: 97%;
+    height: 40px;
+    padding: 0 0 0 5px;
+    outline: none;
+    border-radius: 3px;
+    transition: .2s;
+    
+    
+}
+/*Validação*/
+.content .input.success input[type=text]{
+    border: 1px solid rgba(72, 220, 13, 0.765); 
+    position: ab;
+}
+
+.content .input.error input[type=text]{
+    border: 1px solid rgba(220, 16, 13, 0.765); 
+    
+}
+
+.content .input.success i .img-success{
+    visibility: visible;
+}
+
+.content .input.error i .img-error{
+    visibility: visible;
+}
+.content .input.error small{
+    visibility: visible;
+}
+
+/*FIM*/
+
+.content .input small{
+    visibility: hidden;
+    color: red;
+}
+
+.content .input i img{
+    width: 15px;
+    height: 15px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.container input[type=text]::placeholder{
+    color: #E5E5E5;
+}
+.content input[type=text]:hover
+{
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
+}
+.content input[type=password]{
+    border: 1px solid rgb(45, 45, 45);
+    width: 97%;
+    height: 40px;
+    padding: 0 0 0 5px;
+    outline: none;
+    border-radius: 3px;
+    
+}
+.container input[type=password]::placeholder{
+    color: #E5E5E5;
+}
+.content input[type=password]:hover
+{
+    color: #2E6E41;
+    border: 1px solid #2E6E41;
+}
+.input-caixa{
+    display: flex;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-caixa input[type=checkbox]{
+    max-width: 20px;
+    max-height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    
+}
+.input-caixa input[type=checkbox]:checked{
+   background-color: #2E6E41;
+    
+}
+
+.input-caixa p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.input-caixa .acordo{
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+
+input[type=submit]{
+    width: 180px;
+    height: 40px;
+
+    background-color: #0b6b33;
+    border: 0 solid #0b6b33;
+    background-color: #2E6E41;
+    border: 0 solid #2E6E41;
+    border-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type=submit]:hover{
+    background-color: #2E6E41;
+    color: white;
+}
+input[type=submit]:active{
+    background-color: #abd904d7;
+    color: white;
+}
+
+@media (max-width: 480px){
+    .caixa{
+    
+        width: 450px;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        border-radius: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

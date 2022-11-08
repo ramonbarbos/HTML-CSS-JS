@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style-principal.css">
+   <link rel="stylesheet" href="css/criar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+</head>
+<body>
+    
+    <nav>
+
+        <div class="navbar">
+        
+            <a href="index.html" class="link">
+                <div class="img-logo">
+                    <img src="img/imagem/logo4.png" alt="">
+                 </div>
+            </a>
+            
+            <div class="menu" >
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+             </div>
+     
+
+             <div class="login-cadastro">
+                <div class="user">
+                   <img src="img/icones/user.png" alt="">
+                </div>
+                <div class="text">
+                    <p>Se você preferir,</p>
+                    <p><a href="login.html">login</a> ou talvez <a href="contatos.html">contato.</a></p>
+                </div>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item" > <a href="login.html" class="nav-link">Entre</a></li>
+                <li class="nav-item"> <a href="contatos.html" class="nav-link">Contato</a></li>
+                
+                </div>
+            </ul>
+
+            
+
+        </div>
+
+    </nav>
+    <div class="container"> <!--Principal-->
+        <div class="espaco"></div>
+
+        <div class="caixa">
+
+            <div class="titulo">
+                <h2>Cadastro</h2>
+            </div>
+
+            <div class="content">
+            <form action="form" id="form">
+    
+                    <div class="input">
+                        <p>Digite seu nome</p>
+                        <input id="nome" type="text" placeholder="nome.." required>
+
+                        <i><img class="img-success" src="img/icones/success.png" alt=""></i>
+                        <i><img class="img-error" src="img/icones/cross.png" alt=""></i>
+                        <small>Error message</small>
+                    </div>
+
+                    <div class="input">
+                        <p>Seu E-mail</p>
+                        <input id="email" type="text" placeholder="email" required>
+
+                        <i><img class="img-success" src="img/icones/success.png" alt=""></i>
+                        <i><img class="img-error" src="img/icones/cross.png" alt=""></i>
+                        <small>Error message</small>
+
+                    </div>
+
+                    <div class="input">
+                        <p>Seu CPF</p>
+                        <input id="cpf" type="text" placeholder="CPF" required>
+                    </div>
+                    
+                    <div class="input">
+                        <p>Sua Senha</p>
+                        <input id="senha" type="password" placeholder="senha" required>
+                    </div>
+                
+
+                <div class="input-caixa">
+                  <input type="checkbox" name="" id=""> 
+                  <p>Quero receber ofertas e novidades por e-mail!
+                </p>
+                </div>
+                <div class="input-caixa">
+                    <input type="checkbox" name="" id=""> 
+                    <p class="acordo">Li e estou de acordo com as políticas da empresa e políticas de privacidade.*
+                  </p>
+                  </div>
+
+                  
+            </div>
+
+            <input type="submit" value="Continuar" > 
+        </form>
+        </div>
+
+    </div>
+    <script src="js/validation.js"></script>
+    <script src="js/navbar-mobile.js"></script>
+</body>
+</html>

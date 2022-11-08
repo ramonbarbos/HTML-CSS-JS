@@ -1,0 +1,213 @@
+
+nav{
+    width: 100vw;
+    height: 110px;
+    background-color: #F4F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    margin: auto;
+    width:  80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.img-logo img{
+    width: 170px;
+    height: 70px;
+}
+.cart-icon{
+    font-family: Material icons, sans-serif;
+    cursor: pointer;
+}
+.link{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+.busca{
+    margin-left: 15px;
+    margin-right: 15px;  
+    display: flex;
+    justify-content: center;
+}
+
+.busca input[type=text]{
+    width: 400px;
+    height: 35px;
+    border: 1px solid #fff;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 5px;
+    align-items: center;
+    padding: 0 5px 0 20px;
+    font-size: 12px;
+    transition: .5s;
+}
+.busca input[type=text]:hover{
+    
+    border: 1px solid #0D9545;
+    background-color: #fff;
+    
+}
+
+.login-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.user img{
+    width: 35px;
+    height: 35px;
+}
+.login-cadastro p{
+    font-size: 14px;
+    color: #161616;
+}
+.login-cadastro a {
+    font-size: 14px;
+    color: #0D9545;
+    text-decoration: none;
+}
+.login-cadastro a:hover {
+    font-size: 14px;
+    color: #abd904;
+    text-decoration: none;
+}
+.nav-menu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu .nav-item{
+    margin-left: 15px;
+    margin-right: 15px;  
+
+}
+.nav-item a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    transition:  .5s;
+}
+.nav-item a:hover{
+    font-size: 18px;
+    color: rgb(221, 255, 96);
+}
+.menu {
+    display: none;
+    cursor: pointer;
+}
+.menu span{
+    display: block;
+    width: 32px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #0D9545;
+    margin: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.car img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+@media (max-width: 1110px){
+    
+    .navbar{
+        margin: auto;
+        width:  80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .login-cadastro{
+        display: none;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .menu {
+        display: block;
+    }
+    .busca{
+        display: none;
+    }
+    .busca input[type=text]{
+        display: none;
+    }
+    .nav-menu{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #f3f3f3;
+
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3;
+        
+    }
+    .nav-menu.active{
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+    .menu.active .line:nth-child(2){
+        opacity: 0;
+    }
+    .menu.active .line:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+
+    }
+    .menu.active .line:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+        
+    }
+    .car img{
+        display: none;
+    }
+    .nav-item a{
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+@media (max-width: 480px){
+    nav{
+        
+        height: 80px;
+      
+    
+    }
+    .nav-item a{
+        font-size: 15px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    
+    }
+    .img-logo img{
+        width: 120px;
+        height: 60px;
+    } 
+    
+}

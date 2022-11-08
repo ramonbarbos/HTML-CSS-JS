@@ -1,0 +1,122 @@
+
+
+
+.ofertas .card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ofertas .titulo  {
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(59, 59, 59);
+    font-family: 'Roboto', sans-serif;
+}
+.ofertas .titulo p {
+    font-size: 25px;
+}
+.ofertas .card a{
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    transition: .5s;
+    margin: 5px;
+
+}
+.ofertas .card a:hover{
+    box-shadow: -1px 1px 9px 0px rgba(0, 0, 0, 0.279);
+    border: 0px solid rgb(195, 195, 195);
+   
+
+}
+
+.ofertas .card .card-content{
+    width: 240px;
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+    transition: .5s;
+    
+}
+.ofertas .card-content .img1,
+.ofertas .card-content .img2,
+.ofertas .card-content .img3,
+.ofertas .card-content .img4{
+    width: 100%;
+    height: 230px;
+    background-image: url("../20220926_212756_0000.png");
+    background-size: cover;
+    background-position: center;
+}
+.ofertas .card-content .img1{
+    background-image: url("../img/produtos/page1/1.webp");
+}
+.ofertas .card-content .img2{
+    background-image: url("../img/produtos/page3/café-espresso-ameno.jpg");
+}
+.ofertas .card-content .img3{
+    background-image: url("../img/produtos/page5/acessorio1.jpg");
+}
+
+
+.ofertas .card .card-content .desc-ofertas{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    font-weight: 500;
+    background-color: transparent;
+    font-size: 15px;
+    margin-left: 17px;
+    margin-right:  17px;
+    align-items: center;
+    
+}
+
+
+.ofertas .card-content .preco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-right:  17px;
+    
+}
+.ofertas .card-content .preco h6{
+    font-size: 17px;
+    color: #985225;
+}
+.ofertas .card-content .preco p{
+    margin-top: 3px;
+    font-size: 11px;
+}
+
+
+@media (max-width: 1200px){
+    .ofertas .card{
+        
+        width: 100%;
+        height: 200vh;
+        justify-content: space-around;
+       
+        margin: 0px;
+    }
+   
+}
+@media(max-width: 600px){
+    .ofertas .card{
+        
+        width: 100%;
+        height: 300vh;
+      
+       
+      
+    }
+   
+}
