@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="page2.css">
     <link rel="stylesheet" href="../css/creditos.css">
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <link rel="stylesheet" href="../img/imgCarrinho/empty cart.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>Café Torrado</title>
 </head>
 <body>
@@ -47,7 +51,7 @@
                 </div>
                 <div class="text">
                     <p>Olá, faça seu</p>
-                    <p><a href="../login.html">login</a> ou <a href="../criar.html">cadastro.</a></p>
+                    <p><a href="../login.html">login</a> ou <a href="../criar.html">cadastro.</a> <br> seu <span class="cart-icon"> shopping_cart</span></a></p></p>
                 </div>
             </div>
             
@@ -101,9 +105,9 @@
             <div class="card">
 
              
-                    <a href="">
+                    
                         <div class="card-content">
-                            <div class="img1"></div>
+                            <div class="img1"> <button class="cart__add-button card__button--list"data-add-product>Comprar</button>  </div>
                             <div class="desc">
                                 <p>Café Torrado e Moído 250g <br> Microlote Semana de 22</p>
                             </div>
@@ -112,11 +116,11 @@
                                  <p class="sub">1x de R$ 33,50 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                    
 
-                    <a href="">
+                    
                         <div class="card-content">
-                            <div class="img2"></div>
+                            <div class="img2">  <button class="cart__add-button card__button--list"data-add-product>Comprar</button> </div>
                             <div class="desc">
                                 <p>Café Moído Orfeu Bourbon <br> Amarelo 250g</p>
                             </div>
@@ -125,11 +129,11 @@
                                  <p class="sub">1x de R$ 29,30 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                    
 
-                    <a href="">
+                    
                         <div class="card-content">
-                            <div class="img3"></div>
+                            <div class="img3"> <button class="cart__add-button card__button--list"data-add-product>Comprar</button>  </div>
                             <div class="desc">
                                 <p>Café Orfeu Torrado e Moído <br> Clássico 250g para Prensa Francesa</p>
                             </div>
@@ -138,11 +142,11 @@
                                  <p class="sub">1x de R$ 29,30 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                    
 
-                    <a href="">
+                    
                         <div class="card-content">
-                            <div class="img4"></div>
+                            <div class="img4">  <button class="cart__add-button card__button--list"data-add-product>Comprar</button> </div>
                             <div class="desc">
                                 <p>Kit Semana de 22: Café <br> Torrado e Moído 250g + 2 copos de café
                                 </p>
@@ -152,7 +156,7 @@
                                  <p class="sub">1x de R$ 131,85 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                    
                     
                     
 
@@ -162,9 +166,9 @@
             <div class="card">
 
              
-                <a href="">
+                
                     <div class="card-content">
-                        <div class="img5"></div>
+                        <div class="img5"> <button class="cart__add-button card__button--list"data-add-product>Comprar</button>  </div>
                         <div class="desc">
                             <p>Café Torrado e Moído <br> Descafeinado 250g - Café Orfeu</p>
                         </div>
@@ -173,11 +177,11 @@
                              <p class="sub">1x de R$ 63,00 sem juros no cartão de crédito</p>
                         </div>                            
                     </div>
-                </a>
+                
 
-                <a href="">
+                
                     <div class="card-content">
-                        <div class="img6"></div>
+                        <div class="img6">  <button class="cart__add-button card__button--list"data-add-product>Comprar</button> </div>
                         <div class="desc">
                             <p>Café Moído Orfeu <br> Intenso 250g
                             </p>
@@ -187,11 +191,11 @@
                              <p class="sub">1x de R$ 29,30 sem juros no cartão de crédito</p>
                         </div>                            
                     </div>
-                </a>
+                
 
-              <a href="">
+              
                         <div class="card-content">
-                            <div class="img7"></div>
+                            <div class="img7"> <button class="cart__add-button card__button--list"data-add-product>Comprar</button>  </div>
                             <div class="desc">
                                 <p>Café Moído Orfeu  <br> Orgânico 250g</p>
                             </div>
@@ -200,11 +204,11 @@
                                  <p class="sub">1x de R$ 33,80 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                   
               
-                    <a href="">
+                    
                         <div class="card-content">
-                            <div class="img8"></div>
+                            <div class="img8"> <button class="cart__add-button card__button--list"data-add-product>Comprar</button>  </div>
                             <div class="desc">
                                 <p>Kit Café Orfeu Torrado <br> e Moído Intenso + 2 Xícaras Espresso
                                 </p>
@@ -214,7 +218,7 @@
                                  <p class="sub">1x de R$ 62,37 sem juros no cartão de crédito</p>
                             </div>                            
                         </div>
-                    </a>
+                    
                 
 
                 
@@ -238,6 +242,110 @@
         </div>
     </footer>
 
+
+
+<!-- carrinho de compras  -->
+<div class="cart__container">
+    <div class="cart">
+        <!-- Fechar Carrinho -->
+        <div class="cart__close">
+            <span class="close-icon">
+                close
+            </span>
+        </div>
+        <!-- Final Fechar Carrinho -->
+
+        <!-- Conteúdo do Carrinho -->
+        <div class="cart__content">
+            <!-- Produtos do carrinho -->
+            <div class="protector">
+                <div class="cart__total-items" data-not-empty-cart>
+                    <span class="cart__total-label">
+                        Total de Produtos:
+                    </span>
+                    <span class="cart__total-value">
+                        0
+                    </span>
+                </div>
+                <div class="cart__products">
+                <div class="cart__empty" data-empty-cart>
+                    <img src="../img/imgCarrinho/empty cart.png">
+                    <div class="empty__title">
+                        Seu carrinho se encontra vazio!
+                    </div>
+                    <div class="empty__subtitle">
+                        parece que você ainda não adicionou nenhum item à sacola. começe a fazer compras para preenchê-la.
+                    </div>
+                
+                <!-- final do carrinho --> 
+                
+                
+                   
+                </div>
+            
+                <!-- final do carrinho -->
+            </div>
+        </div>
+                
+
+            <div class="cart__actions">
+                <div class="link__buttom"><a href="../index.html"><button class="cart__add-button" data-empty-cart> Começa a fazer compras</button></a></div>
+                <div class="link__buttom"><a href="../index.html"><button class="cart__button-secondary" data-not-empty-cart> Confirma Compras </button></a></div>   
+                <div class="cart__summary" data-not-empty-cart>
+                    <div class="summary__item">
+                        <div class="summary__label">
+                            Subtotal
+                        </div>
+                        <div class="summary__value" id="subtotalvalue" data-subtotal>
+                            $ 
+                        </div>
+                    </div>
+
+                    <div class="summary__item">
+                        <div class="summary__label">
+                            Frete
+                        </div>
+                        <div class="summary__value" >
+                            $ 00,00
+                        </div>
+                    </div>
+
+                    <div class="summary__item">
+                        <div class="summary__label">
+                            Desconto
+                        </div>
+                        <div class="summary__value">
+                            $ 00,00
+                        </div>
+                    </div>
+
+                    <div class="summary__item">
+                        <div class="summary__label">
+                            Total Gerado
+                        </div>
+                        <div class="summary__value" id="grandtotal" data-grand-total>
+                            $ 103,99
+                        </div>
+                    </div>
+                    
+                </div>  
+            </div>
+
+         <!-- Final produtos Carrinho -->
+        </div>
+        <!-- Final do conteudo carrinho -->
+   
+ </div>
+    <!--Final Carrinho de compras -->
+</div>
+
+
+
+
+
+
+
+    <script src="../js/app.js"></script>
     <script src="../js/navbar-mobile.js"></script>
 </body>
 </html>

@@ -5,6 +5,10 @@
     --gray: rgba(0, 0, 0, 0.5);
 }
 
+.link__buttom a{
+    text-decoration: none;
+}
+
 .cart{
     position: fixed;
     top: 0;
@@ -119,6 +123,7 @@
     font-size: 16px;
     line-height: 120%;
     color: white;
+    cursor: pointer;
 }
 
 .remove-icon,
@@ -209,6 +214,7 @@
     color: white;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cart__summary{
@@ -249,6 +255,15 @@
     
 }
 
+.img8:hover > .card__button--list{
+    display: flex;
+}
+.img7:hover > .card__button--list{
+    display: flex;
+}
+.img6:hover > .card__button--list{
+    display: flex;
+}
 .img5:hover > .card__button--list{
     display: flex;
 }
@@ -259,6 +274,9 @@
     display: flex;
 }
 .img2:hover > .card__button--list{
+    display: flex;
+}
+.img1:hover > .card__button--list{
     display: flex;
 }
 .img:hover > .card__button--list{
